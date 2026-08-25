@@ -1,0 +1,39 @@
+{
+  "title": "Marbella price data",
+  "upload_type": "dataset",
+  "description": "Open price datasets from Marbella Wire (marbellawire.com), an independent price tracker for Marbella, Spain: the Sunbed Index, a chiringuito census and a beach club price census. Figures as published on marbellawire.com, in CSV and JSON with per-dataset provenance and column dictionaries.",
+  "creators": [
+    {
+      "name": "Marbella Wire"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "Marbella",
+    "Spain",
+    "prices",
+    "tourism",
+    "beach clubs",
+    "chiringuitos",
+    "sunbeds",
+    "open data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://marbellawire.com/prices/sunbeds/",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://marbellawire.com/prices/chiringuitos/",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://marbellawire.com/prices/beach-clubs/",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    }
+  ]
+}
