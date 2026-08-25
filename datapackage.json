@@ -1,0 +1,93 @@
+{
+  "name": "marbella-price-data",
+  "title": "Marbella price data",
+  "homepage": "https://marbellawire.com",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Marbella Wire",
+      "path": "https://marbellawire.com",
+      "role": "author"
+    }
+  ],
+  "resources": [
+    {
+      "name": "sunbed-index-csv",
+      "path": "sunbed-index/sunbed-index.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "sources": [
+        {
+          "title": "Marbella Wire Sunbed Index",
+          "path": "https://marbellawire.com/prices/sunbeds/"
+        }
+      ]
+    },
+    {
+      "name": "sunbed-index-json",
+      "path": "sunbed-index/sunbed-index.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "sources": [
+        {
+          "title": "Marbella Wire Sunbed Index",
+          "path": "https://marbellawire.com/prices/sunbeds/"
+        }
+      ]
+    },
+    {
+      "name": "chiringuitos-csv",
+      "path": "chiringuitos/chiringuitos.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "sources": [
+        {
+          "title": "Marbella Wire chiringuito census",
+          "path": "https://marbellawire.com/prices/chiringuitos/"
+        }
+      ]
+    },
+    {
+      "name": "chiringuitos-json",
+      "path": "chiringuitos/chiringuitos.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "sources": [
+        {
+          "title": "Marbella Wire chiringuito census",
+          "path": "https://marbellawire.com/prices/chiringuitos/"
+        }
+      ]
+    },
+    {
+      "name": "beach-clubs-csv",
+      "path": "beach-clubs/beach-clubs.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "sources": [
+        {
+          "title": "Marbella Wire beach club price census",
+          "path": "https://marbellawire.com/prices/beach-clubs/"
+        }
+      ]
+    },
+    {
+      "name": "beach-clubs-json",
+      "path": "beach-clubs/beach-clubs.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "sources": [
+        {
+          "title": "Marbella Wire beach club price census",
+          "path": "https://marbellawire.com/prices/beach-clubs/"
+        }
+      ]
+    }
+  ]
+}

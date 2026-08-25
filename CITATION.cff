@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: If you use this dataset, cite it as below and link the canonical page.
+title: Marbella price data
+type: dataset
+authors:
+  - name: Marbella Wire
+    website: https://marbellawire.com
+url: https://marbellawire.com/prices/sunbeds/
+repository-code: https://github.com/shiftdylson1/marbella-price-data
+license: CC-BY-4.0
+date-released: '2026-08-25'
