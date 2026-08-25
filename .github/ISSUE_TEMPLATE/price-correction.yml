@@ -1,0 +1,26 @@
+name: Price correction
+description: Report a wrong price, a closed venue, or a dead link
+title: "[correction] "
+labels: [correction]
+body:
+  - type: input
+    id: venue
+    attributes:
+      label: Venue
+      description: Name as it appears in the dataset (or its slug)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong
+      description: The figure or fact as published here, and what it should be
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL (required)
+      description: The venue's own website, menu, rate card or booking page showing the correct value. Corrections without a venue source cannot be accepted.
+    validations:
+      required: true

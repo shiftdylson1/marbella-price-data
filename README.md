@@ -52,6 +52,11 @@ The live index is also served as an image that updates with the data:
 See [CITATION.cff](CITATION.cff) (GitHub's "Cite this repository" button
 uses it), or in prose: "Marbella Wire, https://marbellawire.com/prices/sunbeds/".
 
+## Corrections
+
+Wrong price, closed venue, dead link? [Open a correction issue](../../issues/new?template=price-correction.yml)
+with a source URL from the venue itself — see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 ## License
 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (see [LICENSE](LICENSE)). Free to use, share
