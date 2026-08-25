@@ -39,6 +39,11 @@ SELECT name, sunbed_price FROM 'https://raw.githubusercontent.com/shiftdylson1/m
 curl https://marbellawire.com/data/sunbed-index.csv
 ```
 
+Or open the guided tour in your browser, no install:
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shiftdylson1/marbella-price-data/blob/main/notebooks/explore.ipynb)
+([notebooks/explore.ipynb](notebooks/explore.ipynb) loads the three CSVs
+with pandas and charts the beach club prices.)
+
 ## Embed the Sunbed Index
 
 The live index is also served as an image that updates with the data:
