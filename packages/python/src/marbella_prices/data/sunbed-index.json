@@ -1,0 +1,113 @@
+{
+  "name": "Marbella Wire Sunbed Index",
+  "season": 2026,
+  "updated": "2026-08-11",
+  "currency": "EUR",
+  "unit": "Two sunbeds plus minimum spend, weekday, high season",
+  "methodology": "Prices read from each venue's own website, published rate card, or the booking platform the venue itself sells through, which is labelled “via” wherever the price appears; see each venue's source_url and verified date in sunbed.json. Booking affiliates and aggregators are never used, and a venue that publishes no rate anywhere of its own is listed as unpublished, never estimated.",
+  "average": 131,
+  "yoy_pct": null,
+  "venues": [
+    {
+      "name": "Ocean Club",
+      "area": "Puerto Banús",
+      "price": 300,
+      "yoy_pct": null,
+      "note": "No plain sunbed is sold: the cheapest bed package (Small Round, Frontline Square or 3rd Line Sun Lounge) seats up to three, includes one bottle of Perrier Jouët, and carries no extra minimum spend on a weekday. €300 is the whole weekday cost of putting two people on a bed here: one package, not two. The ladder above it runs €600 for a mid-tier deck and €1,100 for a VIP Deck, with a further €500 to €1,000 minimum spend on weekends and event days.",
+      "source_url": "https://oceanclub.es/app/uploads/2025/10/OC-BED-PACKAGES-2026-1-1.pdf",
+      "verified": "2026-08-11"
+    },
+    {
+      "name": "Playa Padre",
+      "area": "Marbella centre (El Cable)",
+      "price": 240,
+      "yoy_pct": null,
+      "note": "Two standard single beds at €120 each, off the club's own rate card. Each €120 is a €50 bed plus a €70 minimum spend, so both halves double for two people: €100 of bed and €140 that must be eaten and drunk. The VIP bed, capped at two people and bundling a bottle of Moët and a fruit tray, is a separate product at €650.",
+      "source_url": "https://playapadre.com/wp-content/uploads/2025/05/OUR-RATES.jpg",
+      "verified": "2026-08-11"
+    },
+    {
+      "name": "Amàre Beach",
+      "area": "Golden Mile",
+      "price": 139,
+      "yoy_pct": null,
+      "note": "Two adults-only day passes at €69.50 each. The hotel's own page says \"from\", so this is a floor and not a ceiling. A pass includes a pool or beach bed, and half its value comes back as food-and-drink credit rather than being charged on top, which makes this the one venue in the index whose minimum spend is money you get back.",
+      "source_url": "https://www.amarehotels.com/amare-marbella/day-pass/",
+      "verified": "2026-08-11"
+    },
+    {
+      "name": "Moosa Bay",
+      "area": "Artola (Marbella East)",
+      "price": 80,
+      "yoy_pct": null,
+      "note": "Two sunbeds at €40 each, the July and August rate on the venue's own reservations page. The same page prices the rest of the year lower: €30 in February and March, €35 from April to June, and €35 again from September.",
+      "source_url": "https://www.moosabay.com/reservations-1",
+      "verified": "2026-08-11"
+    },
+    {
+      "name": "Nikki Beach",
+      "area": "Elviria (Marbella East)",
+      "price": 60,
+      "yoy_pct": null,
+      "note": "Two single beach loungers at €30 each, no minimum spend. They are first come, first served: Nikki Beach takes no reservation for them and advises arriving at noon when the beach club opens. The elevated terrace is a dearer product on the same page, €60 a lounger Monday to Thursday and €80 Friday to Sunday, and is over-18s only. Nikki Beach publishes nothing on nikkibeach.com; these are the rates on the booking platform it sells through, which we count as the venue's own and label as such.",
+      "source_url": "https://www.sevenrooms.com/experiences/nikkibeachmarbella/single-lounger-5596888419811328",
+      "source_via": "SevenRooms",
+      "verified": "2026-08-11"
+    },
+    {
+      "name": "Bono Beach",
+      "area": "El Rosario (Marbella East)",
+      "price": 60,
+      "yoy_pct": null,
+      "note": "Two single beds at €30 each, read on Wednesday 12 August 2026, towel and a half-litre of water included per bed. A front-line single is €35 and a three-person Bali bed €200. The platform adds a 4% booking fee on top, so €30 rings up as €31.20. Bono publishes nothing on its own domain; these are the rates on the booking platform embedded in its bed-booking page, which we count as the venue's own and label as such.",
+      "source_url": "https://sales.premiumguest.com/bono-beach/en/",
+      "source_via": "PremiumGuest",
+      "verified": "2026-08-11"
+    },
+    {
+      "name": "La Sala by the Sea",
+      "area": "Puerto Banús",
+      "price": 40,
+      "yoy_pct": null,
+      "note": "Two Chill Out Single Beach Beds at €20 each, the Monday to Wednesday rate on the club's own 2026 bed menu (€30 each Thursday to Sunday). No minimum spend; towels are €10 extra each. Its dearer products are priced separately on the same menu: a single pool sunbed is €65, a front-row deluxe bed €25 Monday to Wednesday and €35 Thursday to Sunday, a four-person beach bed €70, and the eight-person Cabana €350 Monday to Wednesday, rising to €800 Thursday to Sunday with €350 of that returned as credit.",
+      "source_url": "https://lasalabythesea.com/downloads/bedmenu.pdf",
+      "verified": "2026-08-11"
+    },
+    {
+      "name": "Public beach",
+      "area": "All of them",
+      "price": 0,
+      "yoy_pct": null,
+      "note": "Towel not included."
+    }
+  ],
+  "unpublished": [
+    {
+      "name": "Trocadero Arena",
+      "area": "Río Real (Marbella East)",
+      "reason": "grupotrocadero.com publishes no sunbed rate. The page gives a telephone number for sunbed reservations instead.",
+      "checked": "2026-08-11"
+    },
+    {
+      "name": "La Cabane",
+      "area": "Los Monteros",
+      "reason": "lacabanemarbella.com describes its Balinese beds and premium sunbeds but publishes no rate for either; reservations go through a form or WhatsApp.",
+      "checked": "2026-08-11"
+    },
+    {
+      "name": "Puente Romano",
+      "area": "Golden Mile",
+      "reason": "No sunbed rate found on the resort's own site. In the index until 2026-08-11 on an undated figure that could not be traced back to the venue.",
+      "checked": "2026-08-11"
+    },
+    {
+      "name": "Purobeach",
+      "area": "Estepona",
+      "reason": "purogroup.com publishes no bed rate for the Estepona location. In the index until 2026-08-11 on an undated figure that could not be traced back to the venue.",
+      "checked": "2026-08-11"
+    }
+  ],
+  "source": "https://marbellawire.com/prices/sunbeds/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Free to use with credit to the Marbella Wire Sunbed Index and a link to https://marbellawire.com/prices/sunbeds/"
+}

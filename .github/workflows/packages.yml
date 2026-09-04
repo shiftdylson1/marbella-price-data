@@ -1,0 +1,109 @@
+# Test the two dataset packages on every push/PR, and publish them to PyPI and
+# npm when a `packages-vYYYY.M.D` tag lands. No long-lived tokens: PyPI uses
+# Trusted Publishing (OIDC) and npm uses Trusted Publishing + provenance.
+#
+# One-time setup (repo owner, in the browser):
+#   PyPI  -> project marbella-prices -> Settings -> Publishing -> Add a new
+#            publisher: owner shiftdylson1, repo marbella-price-data,
+#            workflow packages.yml, environment pypi.
+#   npm   -> package marbella-prices -> Settings -> Trusted publisher:
+#            GitHub Actions, org shiftdylson1, repo marbella-price-data,
+#            workflow packages.yml, environment npm.
+#   GitHub -> Settings -> Environments: create `pypi` and `npm` (optionally
+#            require a reviewer so a tag cannot publish unattended).
+#
+# Seasonal refresh: run the export, then
+#   node packages/sync-data.mjs --version=YYYY.M.D
+#   commit, tag packages-vYYYY.M.D, push the tag.
+name: packages
+
+on:
+  push:
+    branches: [main]
+    tags: ['packages-v*']
+    paths: ['packages/**', 'sunbed-index/**', 'chiringuitos/**', 'beach-clubs/**', '.github/workflows/packages.yml']
+  pull_request:
+    paths: ['packages/**', 'sunbed-index/**', 'chiringuitos/**', 'beach-clubs/**', '.github/workflows/packages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Package data matches the repo datasets, versions agree
+        run: node packages/sync-data.mjs --check
+      - name: Tag matches the package version
+        if: startsWith(github.ref, 'refs/tags/packages-v')
+        run: |
+          tag="${GITHUB_REF_NAME#packages-v}"
+          pkg="$(node -p "require('./packages/npm/package.json').version")"
+          [ "$tag" = "$pkg" ] || { echo "tag $tag != package version $pkg"; exit 1; }
+      - name: npm tests
+        working-directory: packages/npm
+        run: npm test
+      - name: Python tests
+        working-directory: packages/python
+        run: python -m unittest discover -s tests -v
+      - name: Build Python sdist + wheel
+        working-directory: packages/python
+        run: |
+          python -m pip install --quiet build twine
+          python -m build
+          python -m twine check dist/*
+      - uses: actions/upload-artifact@v4
+        with:
+          name: python-dist
+          path: packages/python/dist/
+      - name: npm pack (dry run)
+        working-directory: packages/npm
+        run: npm pack --dry-run
+
+  publish-pypi:
+    needs: test
+    if: startsWith(github.ref, 'refs/tags/packages-v')
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/project/marbella-prices/
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: python-dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: dist/
+
+  publish-npm:
+    needs: test
+    if: startsWith(github.ref, 'refs/tags/packages-v')
+    runs-on: ubuntu-latest
+    environment:
+      name: npm
+      url: https://www.npmjs.com/package/marbella-prices
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+      - name: npm >= 11.5.1 for trusted publishing
+        run: npm install -g npm@latest
+      - name: Publish with provenance
+        working-directory: packages/npm
+        run: npm publish --provenance --access public

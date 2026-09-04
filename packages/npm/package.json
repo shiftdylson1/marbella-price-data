@@ -1,0 +1,63 @@
+{
+  "name": "marbella-prices",
+  "version": "2026.9.4",
+  "description": "Marbella Wire open price datasets (Sunbed Index, chiringuito census, beach club census) as arrays of objects, zero dependencies, CSV + JSON embedded",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    },
+    "./data/*": "./data/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "data/",
+    "LICENSE",
+    "LICENSE-DATA",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "marbella",
+    "spain",
+    "andalusia",
+    "costa-del-sol",
+    "prices",
+    "price-index",
+    "sunbeds",
+    "beach-clubs",
+    "chiringuitos",
+    "tourism",
+    "open-data",
+    "dataset",
+    "csv",
+    "cc-by-4.0",
+    "zenodo"
+  ],
+  "author": "Marbella Wire <editor@marbellawire.com> (https://marbellawire.com)",
+  "license": "MIT",
+  "homepage": "https://marbellawire.com/prices/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiftdylson1/marbella-price-data.git",
+    "directory": "packages/npm"
+  },
+  "bugs": {
+    "url": "https://github.com/shiftdylson1/marbella-price-data/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}

@@ -1,0 +1,59 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "marbella-prices"
+version = "2026.9.4"
+description = "Marbella Wire open price datasets (Sunbed Index, chiringuito census, beach club census) as plain Python lists of dicts, no dependencies"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE", "LICENSE-DATA"]
+authors = [{ name = "Marbella Wire", email = "editor@marbellawire.com" }]
+maintainers = [{ name = "Marbella Wire", email = "editor@marbellawire.com" }]
+requires-python = ">=3.9"
+keywords = [
+  "marbella", "spain", "andalusia", "costa del sol", "prices", "price index",
+  "sunbeds", "beach clubs", "chiringuitos", "tourism", "open data", "dataset",
+  "csv", "cc-by-4.0", "zenodo",
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Developers",
+  "Natural Language :: English",
+  "Natural Language :: Spanish",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Database",
+  "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+pandas = ["pandas>=1.3"]
+
+[project.urls]
+Homepage = "https://marbellawire.com/prices/"
+Documentation = "https://marbellawire.com/prices/sunbeds/"
+Repository = "https://github.com/shiftdylson1/marbella-price-data"
+Source = "https://github.com/shiftdylson1/marbella-price-data/tree/main/packages/python"
+Changelog = "https://github.com/shiftdylson1/marbella-price-data/blob/main/CHANGELOG.md"
+Issues = "https://github.com/shiftdylson1/marbella-price-data/issues"
+"Live data (CSV)" = "https://marbellawire.com/data/sunbed-index.csv"
+"Live data (JSON)" = "https://marbellawire.com/data/sunbed-index.json"
+"Zenodo DOI" = "https://doi.org/10.5281/zenodo.22094846"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/marbella_prices"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/", "tests/", "README.md", "LICENSE", "LICENSE-DATA", "pyproject.toml"]
