@@ -1,0 +1,19 @@
+The datasets in this package (data/*.csv, data/*.json) are made available by
+Marbella Wire (https://marbellawire.com) under the Creative Commons
+Attribution 4.0 International licence (CC BY 4.0):
+
+    https://creativecommons.org/licenses/by/4.0/
+    Full text: https://github.com/shiftdylson1/marbella-price-data/blob/main/LICENSE
+
+You may share and adapt the figures for any purpose, including commercially,
+provided you credit "Marbella Wire" and link the dataset's canonical page:
+
+    Sunbed Index          https://marbellawire.com/prices/sunbeds/
+    Chiringuito census    https://marbellawire.com/prices/chiringuitos/
+    Beach club census     https://marbellawire.com/prices/beach-clubs/
+
+The grant covers the figures only. Marbella Wire's editorial text, its
+credited photographs and Google Places content (ratings, review counts,
+coordinates) are not included in these files and are not CC-licensed.
+
+Archived versions: https://doi.org/10.5281/zenodo.22094846

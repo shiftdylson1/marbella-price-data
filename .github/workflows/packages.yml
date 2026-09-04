@@ -53,6 +53,10 @@ jobs:
         run: npm test
       - name: Python tests
         working-directory: packages/python
+        # src layout: the package is not importable until it is installed or
+        # src/ is on the path, and this step runs before the build.
+        env:
+          PYTHONPATH: src
         run: python -m unittest discover -s tests -v
       - name: Build Python sdist + wheel
         working-directory: packages/python
@@ -67,6 +71,38 @@ jobs:
       - name: npm pack (dry run)
         working-directory: packages/npm
         run: npm pack --dry-run
+
+  # The Go module and the R package are indexed from the repo itself
+  # (pkg.go.dev on a `packages/go/vX.Y.Z` tag, R-universe from the default
+  # branch), so nothing here publishes. This job only proves they still build
+  # against the current data, and deliberately does not gate the PyPI and npm
+  # publishes below.
+  go-and-r:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+          # No third-party dependencies, so there is no go.sum to cache from.
+          cache: false
+      - name: Go vet, gofmt and tests
+        working-directory: packages/go
+        run: |
+          test -z "$(gofmt -l .)" || { echo "gofmt:"; gofmt -l .; exit 1; }
+          go vet ./...
+          go test ./...
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          working-directory: packages/r
+          extra-packages: any::jsonlite
+      - name: R CMD build and check
+        run: |
+          R CMD build packages/r
+          R CMD check --no-manual marbellaprices_*.tar.gz
 
   publish-pypi:
     needs: test

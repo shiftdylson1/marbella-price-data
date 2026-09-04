@@ -1,0 +1,25 @@
+Package: marbellaprices
+Type: Package
+Title: Marbella Wire Open Price Datasets
+Version: 2026.9.4
+Authors@R: person(given = "Marbella Wire",
+                  role = c("aut", "cre", "cph"),
+                  email = "editor@marbellawire.com")
+Description: Three open price datasets for Marbella, on the Spanish Costa del
+    Sol, published by Marbella Wire: the Sunbed Index (what it costs to put two
+    people on sunbeds for a weekday in high season), a census of chiringuitos
+    (beach restaurants) with menu prices, and a census of beach clubs with their
+    published day rates. Every figure is read from a venue's own price list or
+    menu and carries the source URL and the date it was read. A blank is always
+    "the venue does not publish this", never a zero and never an estimate. The
+    figures are released under CC BY 4.0; see the LICENSE-DATA file. Loader code
+    is MIT. No hard dependencies.
+License: MIT + file LICENSE
+Encoding: UTF-8
+URL: https://marbellawire.com/prices/,
+    https://github.com/shiftdylson1/marbella-price-data
+BugReports: https://github.com/shiftdylson1/marbella-price-data/issues
+Depends: R (>= 3.5.0)
+Imports: utils
+Suggests: jsonlite
+NeedsCompilation: no

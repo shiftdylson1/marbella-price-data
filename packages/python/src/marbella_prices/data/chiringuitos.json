@@ -2,7 +2,7 @@
   "name": "Marbella Wire chiringuito census",
   "season": 2026,
   "updated": "2026-07-25",
-  "verified": "2026-08-17",
+  "verified": "2026-08-25",
   "currency": "EUR",
   "census_total": 100,
   "method": "Google listing checked per venue; kept only operating venues with their own website publishing a menu",
@@ -28,7 +28,7 @@
       "phone": "952 85 74 48",
       "google_place_id": "ChIJVVUlaAAocw0RcTyG-c_oh4U",
       "google_maps_url": "https://maps.google.com/?cid=9621915108842552433&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/la-ola/"
     },
     {
@@ -44,7 +44,7 @@
       "phone": "951 61 52 13",
       "google_place_id": "ChIJMYZ7ULsncw0RkHIajrF3SBw",
       "google_maps_url": "https://maps.google.com/?cid=2038010435862164112&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/dune-beach-marbella/"
     },
     {
@@ -60,7 +60,7 @@
       "phone": "952 11 31 42",
       "google_place_id": "ChIJ426PevQgcw0RNrxhk4pRW4A",
       "google_maps_url": "https://maps.google.com/?cid=9249075915355438134&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/chiringuito-los-tony-s/"
     },
     {
@@ -84,13 +84,13 @@
       "phone": "952 82 14 50",
       "google_place_id": "ChIJQ1zyrwEocw0R1uCH7igBAC0",
       "google_maps_url": "https://maps.google.com/?cid=3242593007018959062&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/la-red/"
     },
     {
       "slug": "the-beach-house-restaurant-marbella",
       "name": "The Beach House Restaurant Marbella",
-      "area": "Marbella Centro / Urbaniza",
+      "area": "Marbella Centro",
       "business_status": "operating",
       "official_site": "https://www.beachhousemarbella.com",
       "menu_url": "https://www.beachhousemarbella.com/a-la-carte",
@@ -99,13 +99,13 @@
       "phone": "952 83 94 58",
       "google_place_id": "ChIJcdEfYZIgcw0RQSLBQWTegWU",
       "google_maps_url": "https://maps.google.com/?cid=7314371792007668289&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/the-beach-house-restaurant-marbella/"
     },
     {
       "slug": "nosso-summer-club-marbella",
       "name": "NOSSO Summer Club Marbella",
-      "area": "Las Chapas / El Rosario ar",
+      "area": "Las Chapas / El Rosario",
       "business_status": "operating",
       "price_display": "€26–36",
       "price_basis": "menu",
@@ -117,7 +117,7 @@
       "phone": "665 66 07 37",
       "google_place_id": "ChIJ71QiLUwncw0RaOslfLJxLK0",
       "google_maps_url": "https://maps.google.com/?cid=12478473678937779048&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/nosso-summer-club-marbella/"
     },
     {
@@ -142,13 +142,13 @@
       "phone": "952 77 89 30",
       "google_place_id": "ChIJge0SHwAocw0Rc6Se3ZNv-4U",
       "google_maps_url": "https://maps.google.com/?cid=9654432907067827315&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/los-tres-pepes/"
     },
     {
       "slug": "trocadero-petit-playa",
       "name": "Trocadero Petit Playa",
-      "area": "Fontanilla Beach / Paseo M",
+      "area": "Fontanilla Beach",
       "business_status": "operating",
       "price_level": "€€€",
       "official_site": "https://grupotrocadero.com/trocadero-petit-playa/",
@@ -158,7 +158,7 @@
       "phone": "667 01 06 38",
       "google_place_id": "ChIJkTCwxSEocw0Rpe5UAimfFKA",
       "google_maps_url": "https://maps.google.com/?cid=11535019544084278949&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/trocadero-petit-playa/"
     },
     {
@@ -177,7 +177,7 @@
       "phone": "623 31 42 17",
       "google_place_id": "ChIJTzS4fIkpcw0RA9vu7tcvRc8",
       "google_maps_url": "https://maps.google.com/?cid=14935396343717223171&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/bel-mare-ristorante-san-pedro/"
     },
     {
@@ -196,14 +196,14 @@
       "phone": "682 11 22 33",
       "google_place_id": "ChIJweYOPAApcw0R7h-wgy6oCJI",
       "google_maps_url": "https://maps.google.com/?cid=10522845447082483694&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/chambao/"
     },
     {
       "slug": "cuba-59-beach-bar",
       "name": "Cuba 59 Beach Bar",
-      "area": "Nueva Andalucía / Puerto B",
-      "beach": "Puerto Banús / Nueva Andalucía beachfron",
+      "area": "Nueva Andalucía / Puerto Banús",
+      "beach": "Puerto Banús / Nueva Andalucía beachfront",
       "business_status": "operating",
       "price_display": "€20–30 pp",
       "price_basis": "estimate",
@@ -219,7 +219,7 @@
       "phone": "623 10 16 96",
       "google_place_id": "ChIJqZ6b75gpcw0RBOG5ea5jUFQ",
       "google_maps_url": "https://maps.google.com/?cid=6075465498340483332&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/cuba-59-beach-bar/"
     },
     {
@@ -235,7 +235,7 @@
       "phone": "952 86 55 79",
       "google_place_id": "ChIJAQAAAHzfcg0RCFOtQ4CHAoM",
       "google_maps_url": "https://maps.google.com/?cid=9440256753882977032&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/trocadero-arena/"
     },
     {
@@ -251,13 +251,13 @@
       "phone": "626 56 97 29",
       "google_place_id": "ChIJ_b_5Wbcgcw0RE9bo8nzgwZo",
       "google_maps_url": "https://maps.google.com/?cid=11151440979601970707&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/siroko-beach/"
     },
     {
       "slug": "ocean-club-marbella",
       "name": "Ocean Club Marbella",
-      "area": "Puerto Banús / Nueva Andal",
+      "area": "Puerto Banús / Nueva Andalucía",
       "business_status": "operating",
       "price_display": "€36–54",
       "price_basis": "menu",
@@ -269,7 +269,7 @@
       "phone": "952 90 81 37",
       "google_place_id": "ChIJ0449guwpcw0Rt1NBKqM3f54",
       "google_maps_url": "https://maps.google.com/?cid=11420908353962988471&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/ocean-club-marbella/"
     },
     {
@@ -285,7 +285,7 @@
       "phone": "952 78 75 58",
       "google_place_id": "ChIJiQymg4kpcw0RNcBe0yjtunA",
       "google_maps_url": "https://maps.google.com/?cid=8123065637516787765&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/kala-kalua/"
     },
     {
@@ -304,7 +304,7 @@
       "phone": "952 78 93 28",
       "google_place_id": "ChIJgwVAszAqcw0R0TkPQ62h-Lo",
       "google_maps_url": "https://maps.google.com/?cid=13472696050805324241&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/marisqueria-el-ancla/"
     },
     {
@@ -320,7 +320,7 @@
       "phone": "951 55 22 16",
       "google_place_id": "ChIJk3qkBD8gcw0R8QzwegeRre8",
       "google_maps_url": "https://maps.google.com/?cid=17270619607349071089&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/la-cabane/"
     },
     {
@@ -335,7 +335,7 @@
       "phone": "952 83 92 36",
       "google_place_id": "ChIJo5umzkwncw0R30fcOudYS6s",
       "google_maps_url": "https://maps.google.com/?cid=12343056953887180767&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/bono-beach-marbella/"
     },
     {
@@ -355,7 +355,7 @@
       "phone": "693 69 23 73",
       "google_place_id": "ChIJU3dvAiQhcw0RFvfMmLkfD8c",
       "google_maps_url": "https://maps.google.com/?cid=14343718220191299350&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/cocoa-beach-marbella/"
     },
     {
@@ -378,13 +378,13 @@
       "phone": "951 97 84 64",
       "google_place_id": "ChIJ1RA64wIocw0RMGMIikPKRCQ",
       "google_maps_url": "https://maps.google.com/?cid=2613436075209155376&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/diblu/"
     },
     {
       "slug": "los-espigones",
       "name": "Los Espigones",
-      "area": "Nueva Andalucía / Puerto B",
+      "area": "Nueva Andalucía / Puerto Banús",
       "beach": "Playa Nueva Andalucía",
       "business_status": "operating",
       "opened_year": 1982,
@@ -397,7 +397,7 @@
       "phone": "667 09 61 59",
       "google_place_id": "ChIJ-dWQIpMpcw0RSjWTASNuLKs",
       "google_maps_url": "https://maps.google.com/?cid=12334354576090281290&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/los-espigones/"
     },
     {
@@ -421,7 +421,7 @@
       "phone": "951 55 26 88",
       "google_place_id": "ChIJw96joiEocw0RGvbbKxHcs2s",
       "google_maps_url": "https://maps.google.com/?cid=7760788549197887002&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/mc-beach/"
     },
     {
@@ -442,7 +442,7 @@
       "phone": "610 70 41 44",
       "google_place_id": "ChIJj9dUniEocw0RvpusDxh_R4U",
       "google_maps_url": "https://maps.google.com/?cid=9603784471709785022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/trocadero-playa/"
     },
     {
@@ -458,7 +458,7 @@
       "phone": "952 83 62 39",
       "google_place_id": "ChIJd5O2rgnYcg0RoXZZC3H0y9o",
       "google_maps_url": "https://maps.google.com/?cid=15765963686899447457&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/nikki-beach-marbella/"
     },
     {
@@ -473,14 +473,14 @@
       "phone": "628 99 12 30",
       "google_place_id": "ChIJUXXxq3Arcw0REOAnRV29mQg",
       "google_maps_url": "https://maps.google.com/?cid=619734632030003216&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/barbillon-marbella/"
     },
     {
       "slug": "bocana-beach",
       "name": "Bocana Beach",
       "area": "Marbella centro",
-      "beach": "La Fontanilla / Playa de Venus stretch o",
+      "beach": "La Fontanilla / Playa de Venus",
       "business_status": "operating",
       "price_display": "€18–28",
       "price_basis": "menu",
@@ -497,7 +497,7 @@
       "phone": "602 29 92 02",
       "google_place_id": "ChIJk4EVDhjXcg0RjfkegTf25qM",
       "google_maps_url": "https://maps.google.com/?cid=11810397791075629453&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/bocana-beach/"
     },
     {
@@ -513,7 +513,7 @@
       "phone": "952 78 05 52",
       "google_place_id": "ChIJARx2rCAqcw0RQT9Kvs_uXr0",
       "google_maps_url": "https://maps.google.com/?cid=13645606496997359425&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/alabardero-beach-club-marbella/"
     },
     {
@@ -532,7 +532,7 @@
       "phone": "682 11 22 33",
       "google_place_id": "ChIJnUwaxCUocw0RrvC6D-WhyCU",
       "google_maps_url": "https://maps.google.com/?cid=2722603979928957102&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/chiringuito-puente-romano/"
     },
     {
@@ -550,13 +550,13 @@
       "phone": "951 12 01 15",
       "google_place_id": "ChIJAWShPJUgcw0Rwh34x4L8LIk",
       "google_maps_url": "https://maps.google.com/?cid=9884552920802270658&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/la-plage-casanis/"
     },
     {
       "slug": "mistral-beach",
       "name": "Mistral Beach",
-      "area": "Puerto Banús / Playa del R",
+      "area": "Puerto Banús / Playa del Rodeo",
       "business_status": "operating",
       "price_display": "€28–90",
       "price_basis": "menu",
@@ -569,7 +569,7 @@
       "phone": "638 04 64 86",
       "google_place_id": "ChIJ7zyBUgbWcg0Rbwf3RGlvPbw",
       "google_maps_url": "https://maps.google.com/?cid=13564120150629091183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/mistral-beach/"
     },
     {
@@ -587,7 +587,7 @@
       "phone": "650 41 36 32",
       "google_place_id": "ChIJwa6rAD8ncw0RypuvU-C3eaQ",
       "google_maps_url": "https://maps.google.com/?cid=11851706068506745802&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/the-point-beach-club/"
     },
     {
@@ -595,7 +595,7 @@
       "name": "Chiringuito El Laurel",
       "area": "Elviria",
       "business_status": "operating",
-      "price_level": "€€",
+      "price_level": "€€€",
       "official_site": "https://chiringuitoellaurel.com",
       "menu_url": "https://chiringuitoellaurel.com/carta",
       "menu_is_pdf": false,
@@ -603,13 +603,13 @@
       "phone": "952 83 49 34",
       "google_place_id": "ChIJK7MlD_Mgcw0Rfszw93dfaEs",
       "google_maps_url": "https://maps.google.com/?cid=5433697919288003710&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/chiringuito-el-laurel/"
     },
     {
       "slug": "aurora-beach",
       "name": "Aurora Beach",
-      "area": "Puerto Banús / Nueva Andal",
+      "area": "Puerto Banús / Nueva Andalucía",
       "beach": "Playa Levante",
       "business_status": "operating",
       "opened_year": 2000,
@@ -627,7 +627,7 @@
       "phone": "951 97 96 28",
       "google_place_id": "ChIJ0XLaLMQpcw0Rq6rTY9iVSs8",
       "google_maps_url": "https://maps.google.com/?cid=14936915870747962027&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/aurora-beach/"
     },
     {
@@ -646,7 +646,7 @@
       "phone": "660 59 58 19",
       "google_place_id": "ChIJN7_ZhM8pcw0RqjPuL4gKJUY",
       "google_maps_url": "https://maps.google.com/?cid=5054457736829219754&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/las-cuchis/"
     },
     {
@@ -669,7 +669,7 @@
       "phone": "687 58 87 77",
       "google_place_id": "ChIJnzUOTOgrcw0RclwYHW1oGEY",
       "google_maps_url": "https://maps.google.com/?cid=5050901799944871026&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/el-nini/"
     },
     {
@@ -688,13 +688,13 @@
       "phone": "952 81 38 82",
       "google_place_id": "ChIJMXEdUpMpcw0RWw1P2pG6GSg",
       "google_maps_url": "https://maps.google.com/?cid=2889545771530521947&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/la-sala-by-the-sea/"
     },
     {
       "slug": "banus-beach",
       "name": "Banús Beach",
-      "area": "Puerto Banús - Muelle de L",
+      "area": "Puerto Banús",
       "business_status": "operating",
       "price_display": "€18–80",
       "price_basis": "menu",
@@ -706,7 +706,7 @@
       "phone": "683 22 34 80",
       "google_place_id": "ChIJ-cJO670pcw0R5XrU_PYfXyc",
       "google_maps_url": "https://maps.google.com/?cid=2837021435930901221&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/banus-beach/"
     },
     {
@@ -725,7 +725,7 @@
       "phone": "952 85 90 34",
       "google_place_id": "ChIJ8QLAHWUncw0R0LW0w0zfwz4",
       "google_maps_url": "https://maps.google.com/?cid=4522703971604018640&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/palm-beach-los-monteros/"
     },
     {
@@ -737,14 +737,12 @@
       "opened_year": 2019,
       "price_level": "€€",
       "signature_dish": "Espetos (charcoal-grilled sardines/fish)",
-      "official_site": "https://www.sacaybeach.com/",
-      "menu_url": "https://www.sacaybeach.com/carta/",
       "menu_is_pdf": false,
       "address": "C. Tales de Mileto, 189I, 29603 Marbella, Málaga, Spain",
       "phone": "635 71 85 97",
       "google_place_id": "ChIJn6ieU1Encw0R-ZD9POVjuZ0",
       "google_maps_url": "https://maps.google.com/?cid=11365224970868068601&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/sacay/"
     },
     {
@@ -763,7 +761,7 @@
       "phone": "699 09 34 37",
       "google_place_id": "ChIJFRbhfZ4rcw0RoSJTDRxa0OE",
       "google_maps_url": "https://maps.google.com/?cid=16271604530218738337&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/chiringuito-macaao/"
     },
     {
@@ -786,7 +784,7 @@
       "phone": "952 86 00 11",
       "google_place_id": "ChIJSQx0p_Uncw0RQEou_lRyDOA",
       "google_maps_url": "https://maps.google.com/?cid=16144404473583651392&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/restaurante-puerto-playa/"
     },
     {
@@ -802,7 +800,7 @@
       "phone": "676 20 20 30",
       "google_place_id": "ChIJowmSGzAqcw0RDlPL8yGP6XQ",
       "google_maps_url": "https://maps.google.com/?cid=8424421953960104718&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/pesquera-de-san-pedro/"
     },
     {
@@ -824,7 +822,7 @@
       "phone": "676 10 10 60",
       "google_place_id": "ChIJscEblToncw0RQJLgVu6MIZA",
       "google_maps_url": "https://maps.google.com/?cid=10385737170980737600&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "url": "https://marbellawire.com/prices/chiringuitos/la-pesquera-del-faro/"
     }
   ],

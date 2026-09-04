@@ -1,7 +1,40 @@
 {
+  "$schema": "https://datapackage.org/profiles/2.0/datapackage.json",
   "name": "marbella-price-data",
+  "id": "https://doi.org/10.5281/zenodo.22094846",
   "title": "Marbella price data",
+  "description": "Open price datasets from Marbella Wire (marbellawire.com), an independent price tracker for Marbella, Spain: the Sunbed Index, a chiringuito census and a beach club price census. Figures as published on marbellawire.com, in CSV and JSON with per-dataset provenance and column dictionaries.",
+  "version": "2026.8.25",
+  "created": "2026-08-25T00:00:00Z",
   "homepage": "https://marbellawire.com",
+  "keywords": [
+    "sunbed prices Marbella",
+    "sunbed index",
+    "sun lounger price",
+    "beach club prices Marbella",
+    "Puerto Banús sunbed",
+    "Costa del Sol prices",
+    "open data",
+    "Marbella",
+    "Spain",
+    "prices",
+    "tourism",
+    "beach clubs",
+    "chiringuitos",
+    "sunbeds",
+    "Costa del Sol",
+    "price index",
+    "dataset",
+    "chiringuito prices Marbella",
+    "beach restaurant prices",
+    "espeto price",
+    "Marbella restaurant prices",
+    "chiringuitos dataset",
+    "Puerto Banús beach club prices",
+    "sunbed price",
+    "minimum spend beach club",
+    "Marbella beach clubs dataset"
+  ],
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -13,15 +46,137 @@
     {
       "title": "Marbella Wire",
       "path": "https://marbellawire.com",
-      "role": "author"
+      "roles": [
+        "author",
+        "publisher"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Marbella Wire Sunbed Index",
+      "path": "https://marbellawire.com/prices/sunbeds/"
+    },
+    {
+      "title": "Marbella Wire chiringuito census",
+      "path": "https://marbellawire.com/prices/chiringuitos/"
+    },
+    {
+      "title": "Marbella Wire beach club price census",
+      "path": "https://marbellawire.com/prices/beach-clubs/"
     }
   ],
   "resources": [
     {
       "name": "sunbed-index-csv",
       "path": "sunbed-index/sunbed-index.csv",
+      "title": "Marbella Wire Sunbed Index (CSV)",
+      "description": "What it costs to put two people on sunbeds for a weekday in high season, including any minimum spend, at each beach club on the Marbella coast.",
+      "type": "table",
       "format": "csv",
       "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 8773,
+      "hash": "sha256:72f1e3726b0fd3fcda228afba2630f254f61f6adcd060bce12cd2bac4b32e763",
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "venue",
+            "type": "string",
+            "description": "Venue name as published on the index"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "Area of Marbella"
+          },
+          {
+            "name": "status",
+            "type": "string",
+            "description": "'priced' or 'unpublished' (listed but deliberately not priced; see note)"
+          },
+          {
+            "name": "price_eur",
+            "type": "number",
+            "description": "Two sunbeds plus minimum spend, EUR, high season, weekday. EMPTY for unpublished rows, never zero"
+          },
+          {
+            "name": "price_unit",
+            "type": "string",
+            "description": "Restates the unit for the row"
+          },
+          {
+            "name": "yoy_pct",
+            "type": "number",
+            "description": "Year-on-year change of price_eur, percent"
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Pricing caveat, or the reason a row is unpublished"
+          },
+          {
+            "name": "season",
+            "type": "number",
+            "description": "Season year"
+          },
+          {
+            "name": "measured_on",
+            "type": "date",
+            "description": "When the price was read (unpublished rows: when checked)"
+          },
+          {
+            "name": "price_source_url",
+            "type": "string",
+            "format": "uri",
+            "description": "The venue's own price source"
+          },
+          {
+            "name": "price_source_via",
+            "type": "string",
+            "description": "Booking platform name when the source is the venue's booking system"
+          },
+          {
+            "name": "index_average_eur",
+            "type": "number",
+            "description": "Index-wide average, repeated on every row so a row travels with its headline"
+          },
+          {
+            "name": "index_average_unit",
+            "type": "string",
+            "description": "Unit of the average"
+          },
+          {
+            "name": "index_yoy_pct",
+            "type": "number",
+            "description": "Index-wide year-on-year change, percent"
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "format": "uri",
+            "description": "Canonical index page"
+          },
+          {
+            "name": "attribution",
+            "type": "string",
+            "description": "Requested credit line"
+          },
+          {
+            "name": "license",
+            "type": "string",
+            "format": "uri",
+            "description": "CC BY 4.0"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
       "sources": [
         {
           "title": "Marbella Wire Sunbed Index",
@@ -32,8 +187,13 @@
     {
       "name": "sunbed-index-json",
       "path": "sunbed-index/sunbed-index.json",
+      "title": "Marbella Wire Sunbed Index (JSON)",
+      "description": "What it costs to put two people on sunbeds for a weekday in high season, including any minimum spend, at each beach club on the Marbella coast. JSON envelope carrying the season, the date the figures were verified, the method and the venues.",
       "format": "json",
       "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 7004,
+      "hash": "sha256:510c1431e5b6ffc0156791750d4ec3994f067f14c224d8b3bdbfc28538c140a2",
       "sources": [
         {
           "title": "Marbella Wire Sunbed Index",
@@ -44,8 +204,166 @@
     {
       "name": "chiringuitos-csv",
       "path": "chiringuitos/chiringuitos.csv",
+      "title": "Marbella Wire chiringuito census (CSV)",
+      "description": "Census of chiringuitos (beach restaurants) in Marbella with menu prices read from each venue's own published menu.",
+      "type": "table",
       "format": "csv",
       "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 31288,
+      "hash": "sha256:5a0a58dd6259d73a81a6b8c91e426681baf61ed73b0e7aaec5e12afe3580c3c7",
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Stable id; also the venue page path segment"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Venue name"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "Area of Marbella"
+          },
+          {
+            "name": "beach",
+            "type": "string",
+            "description": "Beach the venue sits on, where recorded"
+          },
+          {
+            "name": "business_status",
+            "type": "string",
+            "description": "'operating' at last verification"
+          },
+          {
+            "name": "opened_year",
+            "type": "number",
+            "description": "Opening year, where recorded"
+          },
+          {
+            "name": "price_display",
+            "type": "string",
+            "description": "Headline price as shown on the page, EUR"
+          },
+          {
+            "name": "price_basis",
+            "type": "string",
+            "description": "What the price is read from (e.g. 'menu')"
+          },
+          {
+            "name": "price_kind",
+            "type": "string",
+            "description": "What the price buys (e.g. 'espeto', 'mains')"
+          },
+          {
+            "name": "price_note",
+            "type": "string",
+            "description": "Caveat on the price"
+          },
+          {
+            "name": "price_level",
+            "type": "string",
+            "description": "Relative bracket, € to €€€€"
+          },
+          {
+            "name": "signature_dish",
+            "type": "string",
+            "description": "Signature dish, where one is published"
+          },
+          {
+            "name": "signature_dish_eur",
+            "type": "number",
+            "description": "Its menu price, EUR"
+          },
+          {
+            "name": "espeto_eur",
+            "type": "number",
+            "description": "Espeto de sardinas menu price, EUR, where published"
+          },
+          {
+            "name": "official_site",
+            "type": "string",
+            "format": "uri",
+            "description": "Venue's own website"
+          },
+          {
+            "name": "menu_url",
+            "type": "string",
+            "format": "uri",
+            "description": "Venue's own published menu (menu_is_pdf says if it is a PDF)"
+          },
+          {
+            "name": "menu_is_pdf",
+            "type": "boolean",
+            "description": "Whether menu_url is a PDF"
+          },
+          {
+            "name": "address",
+            "type": "string",
+            "description": "Street address"
+          },
+          {
+            "name": "phone",
+            "type": "string",
+            "description": "Published business phone"
+          },
+          {
+            "name": "google_place_id",
+            "type": "string",
+            "description": "Google Place ID, for joining"
+          },
+          {
+            "name": "google_maps_url",
+            "type": "string",
+            "format": "uri",
+            "description": "Google Maps listing"
+          },
+          {
+            "name": "verified",
+            "type": "date",
+            "description": "Last per-venue verification"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "format": "uri",
+            "description": "The venue's page on marbellawire.com"
+          },
+          {
+            "name": "currency",
+            "type": "string",
+            "description": "All prices are EUR"
+          },
+          {
+            "name": "source_page",
+            "type": "string",
+            "format": "uri",
+            "description": "Canonical dataset page"
+          },
+          {
+            "name": "attribution",
+            "type": "string",
+            "description": "Requested credit line"
+          },
+          {
+            "name": "license",
+            "type": "string",
+            "format": "uri",
+            "description": "CC BY 4.0"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
       "sources": [
         {
           "title": "Marbella Wire chiringuito census",
@@ -56,8 +374,13 @@
     {
       "name": "chiringuitos-json",
       "path": "chiringuitos/chiringuitos.json",
+      "title": "Marbella Wire chiringuito census (JSON)",
+      "description": "Census of chiringuitos (beach restaurants) in Marbella with menu prices read from each venue's own published menu. JSON envelope carrying the season, the date the figures were verified, the method and the venues.",
       "format": "json",
       "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 41382,
+      "hash": "sha256:b0274379dff0fcdc9218831030e394883700be2dfd7101b3989364b5628dcf8b",
       "sources": [
         {
           "title": "Marbella Wire chiringuito census",
@@ -68,8 +391,179 @@
     {
       "name": "beach-clubs-csv",
       "path": "beach-clubs/beach-clubs.csv",
+      "title": "Marbella Wire beach club price census (CSV)",
+      "description": "Census of Marbella beach clubs with their published day rates, minimum-spend terms and entry policies.",
+      "type": "table",
       "format": "csv",
       "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 12679,
+      "hash": "sha256:57fea1441ad20906814ea601ce20ddd33c5416f6671474af26d65c180254043d",
+      "dialect": {
+        "header": true,
+        "delimiter": ","
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "slug",
+            "type": "string",
+            "description": "Stable id; also the club page path segment"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Club name"
+          },
+          {
+            "name": "area",
+            "type": "string",
+            "description": "Area of Marbella"
+          },
+          {
+            "name": "season_year",
+            "type": "number",
+            "description": "Season the prices belong to"
+          },
+          {
+            "name": "sunbed_price",
+            "type": "number",
+            "description": "Cheapest sunbed/lounger, EUR, high season, per day"
+          },
+          {
+            "name": "bed_or_vip_price",
+            "type": "number",
+            "description": "Top bed or VIP package, EUR, per day, where published"
+          },
+          {
+            "name": "minimum_spend",
+            "type": "string",
+            "description": "Minimum-consumption terms, as published"
+          },
+          {
+            "name": "entry_policy",
+            "type": "string",
+            "description": "How entry actually works"
+          },
+          {
+            "name": "price_level",
+            "type": "string",
+            "description": "Relative bracket"
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "format": "uri",
+            "description": "The club's own rate card or booking page the prices were read from"
+          },
+          {
+            "name": "rates_url",
+            "type": "string",
+            "format": "uri",
+            "description": "Published rates document (rates_is_pdf says if PDF)"
+          },
+          {
+            "name": "rates_is_pdf",
+            "type": "boolean",
+            "description": "Whether rates_url is a PDF"
+          },
+          {
+            "name": "booking_url",
+            "type": "string",
+            "format": "uri",
+            "description": "Club's booking system"
+          },
+          {
+            "name": "official_site",
+            "type": "string",
+            "format": "uri",
+            "description": "Club's own website"
+          },
+          {
+            "name": "menu_url",
+            "type": "string",
+            "format": "uri",
+            "description": "Published menu, where one exists"
+          },
+          {
+            "name": "menu_is_pdf",
+            "type": "boolean",
+            "description": "Whether menu_url is a PDF"
+          },
+          {
+            "name": "opened_year",
+            "type": "number",
+            "description": "Opening year, where recorded"
+          },
+          {
+            "name": "business_status",
+            "type": "string",
+            "description": "'operating' at last verification"
+          },
+          {
+            "name": "address",
+            "type": "string",
+            "description": "Street address"
+          },
+          {
+            "name": "phone",
+            "type": "string",
+            "description": "Published business phone"
+          },
+          {
+            "name": "google_place_id",
+            "type": "string",
+            "description": "Google Place ID, for joining"
+          },
+          {
+            "name": "google_maps_url",
+            "type": "string",
+            "format": "uri",
+            "description": "Google Maps listing"
+          },
+          {
+            "name": "verified",
+            "type": "date",
+            "description": "Last per-venue verification"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Sourcing note"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "format": "uri",
+            "description": "The club's page on marbellawire.com"
+          },
+          {
+            "name": "currency",
+            "type": "string",
+            "description": "All prices are EUR"
+          },
+          {
+            "name": "source_page",
+            "type": "string",
+            "format": "uri",
+            "description": "Canonical dataset page"
+          },
+          {
+            "name": "attribution",
+            "type": "string",
+            "description": "Requested credit line"
+          },
+          {
+            "name": "license",
+            "type": "string",
+            "format": "uri",
+            "description": "CC BY 4.0"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
       "sources": [
         {
           "title": "Marbella Wire beach club price census",
@@ -80,8 +574,13 @@
     {
       "name": "beach-clubs-json",
       "path": "beach-clubs/beach-clubs.json",
+      "title": "Marbella Wire beach club price census (JSON)",
+      "description": "Census of Marbella beach clubs with their published day rates, minimum-spend terms and entry policies. JSON envelope carrying the season, the date the figures were verified, the method and the venues.",
       "format": "json",
       "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 17040,
+      "hash": "sha256:2a46e42d70a0789c7b622ff8b96314740426c03360a5f919714490e050dc6e07",
       "sources": [
         {
           "title": "Marbella Wire beach club price census",
