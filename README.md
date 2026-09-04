@@ -1,8 +1,10 @@
 # Marbella price data
 
+Read this in: [Español](docs/i18n/README.es.md) · [Deutsch](docs/i18n/README.de.md) · [Français](docs/i18n/README.fr.md) · [Nederlands](docs/i18n/README.nl.md) · [Svenska](docs/i18n/README.sv.md)
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22094846.svg)](https://doi.org/10.5281/zenodo.22094846)
 ![License: CC BY 4.0](https://img.shields.io/badge/license-CC_BY_4.0-blue)
-![Verified](https://img.shields.io/badge/data_verified-2026--08--17-brightgreen)
+![Verified](https://img.shields.io/badge/data_verified-2026--08--25-brightgreen)
 ![Season](https://img.shields.io/badge/season-2026-informational)
 
 Open datasets from [Marbella Wire](https://marbellawire.com), an independent price tracker

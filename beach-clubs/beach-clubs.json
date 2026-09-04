@@ -2,7 +2,7 @@
   "name": "Marbella Wire beach club price census",
   "season": 2026,
   "updated": "2026-07-24",
-  "verified": "2026-08-17",
+  "verified": "2026-08-25",
   "currency": "EUR",
   "count": 14,
   "clubs": [
@@ -26,7 +26,7 @@
       "phone": "952 90 81 37",
       "google_place_id": "ChIJ0449guwpcw0Rt1NBKqM3f54",
       "google_maps_url": "https://maps.google.com/?cid=11420908353962988471&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "notes": "official 2026 bed-packages PDF; top bed €1,100 for 8",
       "url": "https://marbellawire.com/prices/beach-clubs/ocean-club-marbella/"
     },
@@ -52,7 +52,7 @@
       "phone": "650 82 22 26",
       "google_place_id": "ChIJ_-5KUYoncw0ROWhqy_1kzWY",
       "google_maps_url": "https://maps.google.com/?cid=7407688003296585785&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "notes": "2026 high season; VIP bed €650 for two",
       "url": "https://marbellawire.com/prices/beach-clubs/playa-padre/"
     },
@@ -62,10 +62,9 @@
       "area": "Elviria (Marbella East)",
       "season_year": 2026,
       "sunbed_price": 30,
-      "bed_or_vip_price": 200,
-      "entry_policy": "no cover; single beach lounger €30, first come first served; elevated terrace €60 weekdays, €80 weekends",
+      "entry_policy": "no cover; single beach lounger €30, first come first served; elevated terrace €60 or €80 depending on the day",
       "price_level": "€€€€",
-      "source_url": "https://clubbookers.com/marbella/clubs/nikki-beach/",
+      "source_url": "https://www.sevenrooms.com/experiences/nikkibeachmarbella/single-lounger-5596888419811328",
       "rates_url": "https://www.sevenrooms.com/experiences/nikkibeachmarbella",
       "rates_is_pdf": false,
       "booking_url": "https://www.sevenrooms.com/experiences/nikkibeachmarbella",
@@ -76,8 +75,8 @@
       "phone": "952 83 62 39",
       "google_place_id": "ChIJd5O2rgnYcg0RoXZZC3H0y9o",
       "google_maps_url": "https://maps.google.com/?cid=15765963686899447457&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
-      "notes": "booking-agent figure, undated season: treat as a floor",
+      "verified": "2026-08-25",
+      "notes": "rates come from the Nikki Beach SevenRooms booking pages, not nikkibeach.com; the beach loungers take no reservation, so arrive when the club opens at midday",
       "url": "https://marbellawire.com/prices/beach-clubs/nikki-beach/"
     },
     {
@@ -100,7 +99,7 @@
       "phone": "951 56 82 02",
       "google_place_id": "ChIJz2WPqfcncw0Rh7dciWHhuyk",
       "google_maps_url": "https://maps.google.com/?cid=3007244985232570247&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "notes": "official hotel day-pass page",
       "url": "https://marbellawire.com/prices/beach-clubs/amare-beach/"
     },
@@ -125,7 +124,7 @@
       "phone": "650 30 03 00",
       "google_place_id": "ChIJHaVzmO8pcw0RcNarv2BPX8I",
       "google_maps_url": "https://maps.google.com/?cid=14006000643096696432&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "notes": "official 2026 T&Cs confirm terms; € figure via listing site",
       "url": "https://marbellawire.com/prices/beach-clubs/nao-pool-club/"
     },
@@ -146,7 +145,7 @@
       "phone": "952 86 55 79",
       "google_place_id": "ChIJAQAAAHzfcg0RCFOtQ4CHAoM",
       "google_maps_url": "https://maps.google.com/?cid=9440256753882977032&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "notes": "unpublished pending a real figure; the €30/€40 carried here until 11 August 2026 came from lounjo.com, not from Grupo Trocadero",
       "url": "https://marbellawire.com/prices/beach-clubs/trocadero-arena/"
     },
@@ -167,7 +166,7 @@
       "phone": "951 55 22 16",
       "google_place_id": "ChIJk3qkBD8gcw0R8QzwegeRre8",
       "google_maps_url": "https://maps.google.com/?cid=17270619607349071089&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "notes": "unpublished pending a real figure; the €35 carried here until 11 August 2026 came from vacationmarbella.com, not from La Cabane",
       "url": "https://marbellawire.com/prices/beach-clubs/la-cabane/"
     },
@@ -188,7 +187,7 @@
       "phone": "657 62 71 44",
       "google_place_id": "ChIJUe7_1oYncw0ROsOFQbU9RgU",
       "google_maps_url": "https://maps.google.com/?cid=380059067257045818&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "notes": "2026 guide figure; club publishes none",
       "url": "https://marbellawire.com/prices/beach-clubs/opium-beach/"
     },
@@ -211,7 +210,7 @@
       "phone": "952 83 92 36",
       "google_place_id": "ChIJo5umzkwncw0R30fcOudYS6s",
       "google_maps_url": "https://maps.google.com/?cid=12343056953887180767&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "notes": "guide figure, season not pinned: confirm on the day",
       "url": "https://marbellawire.com/prices/beach-clubs/bono-beach/"
     },
@@ -236,7 +235,7 @@
       "phone": "952 81 38 82",
       "google_place_id": "ChIJMXEdUpMpcw0RWw1P2pG6GSg",
       "google_maps_url": "https://maps.google.com/?cid=2889545771530521947&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "notes": "official 2026 bed menu PDF",
       "url": "https://marbellawire.com/prices/beach-clubs/la-sala-by-the-sea/"
     },
@@ -258,7 +257,7 @@
       "phone": "626 56 97 29",
       "google_place_id": "ChIJ_b_5Wbcgcw0RE9bo8nzgwZo",
       "google_maps_url": "https://maps.google.com/?cid=11151440979601970707&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "notes": "club publishes no prices online",
       "url": "https://marbellawire.com/prices/beach-clubs/siroko-beach/"
     },
@@ -279,7 +278,7 @@
       "phone": "610 70 41 44",
       "google_place_id": "ChIJj9dUniEocw0RvpusDxh_R4U",
       "google_maps_url": "https://maps.google.com/?cid=9603784471709785022&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "notes": "sister of the Arena; official site lists no prices",
       "url": "https://marbellawire.com/prices/beach-clubs/trocadero-playa/"
     },
@@ -302,7 +301,7 @@
       "phone": "663 86 64 45",
       "google_place_id": "ChIJ1zScAwcpcw0RAdYR299wf2I",
       "google_maps_url": "https://maps.google.com/?cid=7097515644514588161&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "notes": "opened May 2025",
       "url": "https://marbellawire.com/prices/beach-clubs/kova-beach-club/"
     },
@@ -322,7 +321,7 @@
       "phone": "638 04 64 86",
       "google_place_id": "ChIJ7zyBUgbWcg0Rbwf3RGlvPbw",
       "google_maps_url": "https://maps.google.com/?cid=13564120150629091183&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-      "verified": "2026-08-17",
+      "verified": "2026-08-25",
       "notes": "unpublished pending a real figure",
       "url": "https://marbellawire.com/prices/beach-clubs/mistral-beach/"
     }

@@ -4,7 +4,7 @@
 - Rows: 43 published venues (of a 100-venue census) + 5 recorded closures
 - Season: 2026
 - Last data update: 2026-07-25
-- Last per-venue verification: 2026-08-17
+- Last per-venue verification: 2026-08-25
 - Method: Google listing checked per venue; kept only operating venues with their own website publishing a menu
 
 Exported from the same data files that render the page above; the export

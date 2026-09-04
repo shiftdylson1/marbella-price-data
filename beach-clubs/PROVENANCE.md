@@ -4,7 +4,7 @@
 - Rows: 14
 - Season: 2026
 - Last data update: 2026-07-24
-- Last per-venue verification: 2026-08-17
+- Last per-venue verification: 2026-08-25
 - Method: Prices read from each club's own published rate card or booking system (source_url on every row); sunbed_price and bed_or_vip_price are euros, high season, per day.
 
 Exported from the same data files that render the page above; the export
